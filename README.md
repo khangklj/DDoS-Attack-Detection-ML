@@ -40,10 +40,12 @@ python ddos_detection.py --classification_type [binary|multi|both] --is_saved_fi
 ## Dataset
 
 The dataset used in this project is the [CICDDOS2019 Dataset]
-(https://www.unb.ca/cic/datasets/ddos-2019.html) (Origin)
+(https://www.unb.ca/cic/datasets/ddos-2019.html)
+ 
 Iman Sharafaldin, Arash Habibi Lashkari, Saqib Hakak, and Ali A. Ghorbani, "Developing Realistic Distributed Denial of Service (DDoS) Attack Dataset and Taxonomy", IEEE 53rd International Carnahan Conference on Security Technology, Chennai, India, 2019.
 
-(https://data.mendeley.com/datasets/ssnc74xm6r/1) (Used)
+(https://data.mendeley.com/datasets/ssnc74xm6r/1)
+
 Talukder, Md Alamin; Uddin, Md Ashraf (2023), “CIC-DDoS2019 Dataset”, Mendeley Data, V1, doi: 10.17632/ssnc74xm6r.1
 
 
