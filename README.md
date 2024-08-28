@@ -30,7 +30,9 @@ pip install -r requirements.txt
 
 1. Run the main script:
 
+```
 python ddos_detection.py --classification_type [binary|multi|both] --is_saved_fig [True|False]
+```
 
 - `--classification_type`: Specifies the type of classification to perform. Options are `binary`, `multi`, or `both`. Default is `both`.
 - `--is_saved_fig`: Specifies whether to save the confusion matrix figure. Default is `False`.
