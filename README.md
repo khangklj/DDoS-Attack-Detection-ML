@@ -14,7 +14,7 @@ This repository contains code for a DDoS attack detection system. It uses machin
 
 ## Example
 
-See the [DDoS_Detection_using_ML.ipynb](https://github.com/your-username/ddos-attack-detection/blob/main/examples/DDoS_Detection_using_ML.ipynb) for more data preprocessing process detailed.
+See the [DDoS_Detection_using_ML.ipynb](https://github.com/khangklj/DDoS-Attack-Detection-ML/tree/main/examples/DDoS_Detection_using_ML.ipynb) for more data preprocessing process detailed.
 
 ## Installation
 
