@@ -45,7 +45,7 @@ python ddos_detection.py --classification_type [binary|multi|both] --is_saved_fi
 
 ## Dataset
 
-The dataset used in this project is the [CICDDOS2019 Dataset]
+The dataset used in this project is the [CIC-DDoS2019 Dataset]
 
 (https://www.unb.ca/cic/datasets/ddos-2019.html)
 
