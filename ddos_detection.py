@@ -141,11 +141,9 @@ def multi_model(df, multi_le_mapping):
     y = df['Label']
 
     # Split data into training and testing sets
-    # Test size is set to 0.2 and random state is set to 42 for reproducibility
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     # Create a Random Forest classifier
-    # Number of estimators is set to 100 and random state is set to 42 for reproducibility
     model = RandomForestClassifier(n_estimators=100, random_state=42)
 
     # Train the model
