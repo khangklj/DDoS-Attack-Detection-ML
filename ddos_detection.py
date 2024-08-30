@@ -281,8 +281,10 @@ def main():
 
     elif args.classification_type == 'both':
         print("Train and test model (both_case):")
+        print("binary_case:")
         y_test, y_pred = binary_model(df, binary_le_mapping)
         visualization(y_test, y_pred, binary_le_mapping, args.is_saved_fig)
+        print("multi_case:")
         y_test_multi, y_pred_multi = multi_model(df, multi_le_mapping)
         visualization(y_test_multi, y_pred_multi, multi_le_mapping, args.is_saved_fig)
 
