@@ -17,7 +17,7 @@ This model can only run on CPU.
 
 ## Example
 
-See the [DDoS_Detection_using_ML.ipynb](https://github.com/khangklj/DDoS-Attack-Detection-ML/tree/main/examples/DDoS_Detection_using_ML.ipynb) for more data preprocessing process detailed.
+See the [DDoS_Detection_using_ML.ipynb](examples/DDoS_Detection_using_ML.ipynb) for more data preprocessing process detailed.
 
 ## Installation
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Download the [dataset](https://github.com/khangklj/DDoS-Attack-Detection-ML#dataset) and put in the 
+1. Download the [dataset](dataset) and put in the 
 csv file in **dataset** folder
 
 2. Run the main script:
