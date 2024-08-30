@@ -40,7 +40,7 @@ def preprocess(df):
     # Remove inf and NaN
     print("Drop NaN: ")
     df.replace([np.inf, -np.inf], np.nan, inplace=True)
-    print("NaN: ", df.isna().sum())
+    print(df.isna().sum())
     df.dropna(inplace=True)
     print("Data shape: ", df.shape)
 
