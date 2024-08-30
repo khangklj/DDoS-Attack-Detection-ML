@@ -20,7 +20,7 @@ See the [DDoS_Detection_using_ML.ipynb](https://github.com/khangklj/DDoS-Attack-
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/ddos-attack-detection.git
+git clone https://github.com/khangklj/ddos-attack-detection.git
 ```
 
 
