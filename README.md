@@ -36,26 +36,20 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Run the main script:
+1. Download the [dataset](https://github.com/khangklj/DDoS-Attack-Detection-ML#dataset) and put in the 
+csv file in **dataset** folder
 
+2. Run the main script:
 ```
 python ddos_detection.py --classification_type [binary|multi|both] --is_saved_fig [True|False]
 ```
 
 - `--classification_type`: Specifies the type of classification to perform. Options are `binary`, `multi`, or `both`. Default is `both`.
-- `--is_saved_fig`: Specifies whether to save the visualized figures. Default is `False`.
-
-2. The program will preprocess the dataset, train and test the models, and visualize the results.
+- `--is_saved_fig`: Specifies whether to save the visualized figures. Default is `False`. (Note: The saved figures if exists will be in **log** folder)
 
 ## Dataset
 
-The dataset used in this project is the [CIC-DDoS2019 Dataset]
-
-(https://www.unb.ca/cic/datasets/ddos-2019.html)
-
-Iman Sharafaldin, Arash Habibi Lashkari, Saqib Hakak, and Ali A. Ghorbani, "Developing Realistic Distributed Denial of Service (DDoS) Attack Dataset and Taxonomy", IEEE 53rd International Carnahan Conference on Security Technology, Chennai, India, 2019.
-
-(https://data.mendeley.com/datasets/ssnc74xm6r/1)
+The dataset used in this project is the [CIC-DDoS2019 Dataset](https://data.mendeley.com/datasets/ssnc74xm6r/1)
 
 Talukder, Md Alamin; Uddin, Md Ashraf (2023), “CIC-DDoS2019 Dataset”, Mendeley Data, V1, doi: 10.17632/ssnc74xm6r.1
 

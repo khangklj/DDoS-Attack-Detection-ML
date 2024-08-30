@@ -165,4 +165,5 @@ cython_debug/
 .vscode
 
 # Dataset
-dataset/
+dataset/**
+!dataset/README.md
