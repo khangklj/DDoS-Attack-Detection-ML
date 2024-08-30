@@ -39,8 +39,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Download the [dataset](dataset) and put in the 
-csv file in **dataset** folder
+1. Download the [dataset](#dataset) and put in the 
+csv file in this [**folder**](dataset)
 
 2. Run the main script:
 ```
