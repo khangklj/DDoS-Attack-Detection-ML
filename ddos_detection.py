@@ -212,7 +212,7 @@ def visualization(y_test, y_pred, mapping, is_saved_fig=False):
     # Save the confusion matrix figure if save_fig_path is not None
     if is_saved_fig:
         # Define the file path
-        file_path = os.path.join(log_dir, f'${prefix_title}_confusion_matrix.png')
+        file_path = os.path.join(log_dir, f'{prefix_title}_confusion_matrix.png')
         
         # Save the figure
         plt.savefig(file_path)
@@ -233,7 +233,7 @@ def visualization(y_test, y_pred, mapping, is_saved_fig=False):
     # Save the model performance figure if save_fig_path is not None
     if is_saved_fig:
         # Define the file path
-        file_path = os.path.join(log_dir, f'${prefix_title}_model_performance.png')
+        file_path = os.path.join(log_dir, f'{prefix_title}_model_performance.png')
         
         # Save the figure
         plt.savefig(file_path)
