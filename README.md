@@ -23,8 +23,12 @@ See the [DDoS_Detection_using_ML.ipynb](https://github.com/khangklj/DDoS-Attack-
 git clone https://github.com/khangklj/DDoS-Attack-Detection-ML.git
 ```
 
+2. Change to working directory
+```
+cd DDoS-Attack-Detection-ML
+```
 
-2. Install the required packages:
+3. Install the required packages:
 ```
 pip install -r requirements.txt
 ```
