@@ -39,7 +39,7 @@ python ddos_detection.py --classification_type [binary|multi|both] --is_saved_fi
 ```
 
 - `--classification_type`: Specifies the type of classification to perform. Options are `binary`, `multi`, or `both`. Default is `both`.
-- `--is_saved_fig`: Specifies whether to save the confusion matrix figure. Default is `False`.
+- `--is_saved_fig`: Specifies whether to save the visualized figures. Default is `False`.
 
 2. The program will preprocess the dataset, train and test the models, and visualize the results.
 
