@@ -11,6 +11,9 @@ This repository contains code for a DDoS attack detection system. It uses machin
 - matplotlib
 - seaborn
 
+## Note
+This model can only run on CPU.
+
 
 ## Example
 

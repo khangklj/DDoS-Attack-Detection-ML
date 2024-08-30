@@ -244,7 +244,7 @@ def main():
     args = parser.parse_args()
 
     # Read data
-    df = pd.read_csv('dataset\cicddos2019_dataset.csv')
+    df = pd.read_csv('./dataset/cicddos2019_dataset.csv')
     print("BEFORE PREPROCESSING:")
     print("Data shape: ", df.shape)
     print(df)
