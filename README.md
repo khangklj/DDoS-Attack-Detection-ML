@@ -48,6 +48,10 @@ python ddos_detection.py --classification_type [binary|multi|both] --is_saved_fi
 ```
 
 - `--classification_type`: Specifies the type of classification to perform. Options are `binary`, `multi`, or `both`. Default is `both`.
+
+    + `binary` means the model predict whether there is a DDoS attack or not
+    + `multi` means the model classifies multi-class of DDoS attacks
+
 - `--is_saved_fig`: Specifies whether to save the visualized figures. Default is `False`. (Note: The saved figures if exists will be in **log** folder)
 
 ## Dataset

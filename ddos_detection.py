@@ -192,6 +192,12 @@ def visualization(y_test, y_pred, mapping, is_saved_fig=False):
             
     # Get the labels from the mapping
     labels = list(mapping.keys())
+
+    num_classes = len(mapping)
+    if (num_classes == 2):
+        prefix_title = "binary"
+    else:
+        prefix_title = "multi"
     
     # Create a confusion matrix
     cm = confusion_matrix(y_test, y_pred)
@@ -206,7 +212,7 @@ def visualization(y_test, y_pred, mapping, is_saved_fig=False):
     # Save the confusion matrix figure if save_fig_path is not None
     if is_saved_fig:
         # Define the file path
-        file_path = os.path.join(log_dir, 'confusion_matrix.png')
+        file_path = os.path.join(log_dir, f'${prefix_title}_confusion_matrix.png')
         
         # Save the figure
         plt.savefig(file_path)
@@ -227,7 +233,7 @@ def visualization(y_test, y_pred, mapping, is_saved_fig=False):
     # Save the model performance figure if save_fig_path is not None
     if is_saved_fig:
         # Define the file path
-        file_path = os.path.join(log_dir, 'model_performance.png')
+        file_path = os.path.join(log_dir, f'${prefix_title}_model_performance.png')
         
         # Save the figure
         plt.savefig(file_path)
